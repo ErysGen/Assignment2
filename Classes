@@ -25,9 +25,7 @@ class Pen:  # make the pen write
         self.length = l
         self.width = w
         self.material = m
-        
-        
-        
+              
 class Smartphone: # print action
     def __init__(self,c,wg,tn,s,n):
         self.color = c
