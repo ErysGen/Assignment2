@@ -1,0 +1,9 @@
+class Paper:
+    def _init_(self,c,w,tn,tx,m):
+          self.color = c
+          self.weight = w
+          self.thickness = tn
+          self.texture = tx
+          self.size = s
+          
+    def 
