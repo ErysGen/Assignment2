@@ -53,4 +53,4 @@ print("The pen is mightier than the sword - colored",pen1.color)
 
 print("")
 
-print("The paper has been cut,                                                             the scarf is tied,                                                                  the pen has written words,                                                            and the smartphone captures it all.")
+print("The paper has been cut,                                                             the scarf is tied,                                                                  the pen has written words,                                                           and the smartphone captures it all.")
