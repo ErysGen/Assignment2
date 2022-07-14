@@ -1,9 +1,50 @@
+# Class Section
 class Paper:
-    def _init_(self,c,w,tn,tx,m):
-          self.color = c
-          self.weight = w
-          self.thickness = tn
-          self.texture = tx
-          self.size = s
-          
-    def 
+    def __init__(self,c,w,tn,tx,s):
+        self.color = c
+        self.weight = w
+        self.thickness = tn
+        self.texture = tx
+        self.size = s
+        
+    def cut(self):
+        self.size = self.size / 2
+        
+class Scarf:     # figure out what action to do for with the scarf
+    def __init__(self,c,wg,tn,l,w):  
+        self.color = c
+        self.weight = wg
+        self.thickness = tn
+        self.length = l
+        self.width = w
+
+class Pen:  # make the pen write
+    def __init__(self,c,wg,l,w,m):
+        self.color = c
+        self.weight = wg
+        self.length = l
+        self.width = w
+        self.material = m
+        
+        
+        
+class Smartphone: # print action
+    def __init__(self,c,wg,tn,s,n):
+        self.color = c
+        self.weight = wg
+        self.thickness = tn
+        self.shape = s
+        self.name = n
+
+paper1 = Paper("White",1,70,"Smooth",20) 
+paper2 = Paper("Gold",2,200,"Embossed",30)
+
+pen1 = Pen("Purple",2,12,1,"Metal")
+pen2 = Pen("Red",2,14,1,"Plastic")
+# Command Section
+print("Type of Paper:",paper2.texture)
+print("Before cut:",paper2.size)
+paper1.cut()
+print("After cut:",paper1.size)
+
+print("The pen is mightier than the sword - colored:",pen1.color)
