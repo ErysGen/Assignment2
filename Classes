@@ -36,11 +36,52 @@ class Smartphone: # print action
         self.shape = s
         self.name = n
 
+#Andrea's Section
+class Sword:
+    def __init__(self,c,wg,tn,l,w)
+        self.color = c
+        self.weight = wg
+        self.thickness = tn
+        self.length = l 
+        self.width = w
+    
+class Mouse:
+    def __init__(self,c,wg,l,w,h)
+        self.color = c
+        self.weight = wg
+        self.length = l 
+        self.width = w
+        self.height = h
+        
+class Gun:
+    def __init_(self,c,wg,tn,l,tx)
+        self.color = c
+        self.weight = wg
+        self.thickness = tn
+        self.length = l
+        self.texture = tx
+        
+class Chair:
+    def __init__(self,c,wg,w,tx,h)
+        self.color = c
+        self.weight = wg
+        self.thickness = tn
+        self.length = l
+        self.texture = tx
+#Andrea's Section
+
 paper1 = Paper("White",1,70,"Smooth",20) 
 paper2 = Paper("Gold",2,200,"Embossed",30)
 
+scarfa = Scarf("Gold and Green","2 lbs",6,72,24)
+scarfb = Scarf("Blue and Silver","3 lbs",9,48,24)
+
 pen1 = Pen("Purple",2,12,1,"Metal")
 pen2 = Pen("Red",2,14,1,"Plastic")
+
+sphone1 = Smartphone("Bronze","2 lb","1 cm","rounded rectangle","Magic")
+sphone2 = Smartphone("Silver","2 lb","3 cm","palm-sized pebble","Katoptris")
+
 # Command Section
 print("Type of Paper:",paper2.texture)
 print("Before cut:",paper2.size)
