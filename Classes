@@ -71,28 +71,24 @@ class Chair:
 a4 = Paper("White",1,70,"Smooth",20) 
 board = Paper("Gold",2,200,"Embossed",30)
 
-scarfa = Scarf("Gold and Green","2 lbs",6,72,24)
-scarfb = Scarf("Blue and Silver","3 lbs",9,48,24)
+scarfa = Scarf("gold and green","2 lbs",6,72,24)
+scarfb = Scarf("blue and silver","3 lbs",9,48,24)
 
-pen1 = Pen("purple",2,12,1,"Metal")
-pen2 = Pen("red",2,14,1,"Plastic")
+p = Pen("purple",2,12,1,"Metal")
+r = Pen("red",2,14,1,"Plastic")
 
 sphone1 = Smartphone("Bronze","2 lb","1 cm","rounded rectangle","Magic")
 sphone2 = Smartphone("Silver","2 lb","3 cm","palm-sized pebble","Katoptris")
 
 # Command Section
-print("Type of Paper:",board.texture)
-print("Before cut:",board.size)
-a4.cut()
-print("After cut:",a4.size)
+print("I have a",r.color,"pen. Mightier than the Percy Jackson's magic pen-sword.")
 print("")
 
-#scarf
-
-print("The",pen1.color,"pen is mightier than the sword.")
+print("I carry it in a purse decorated with a",scarfa.color,"scarf.")
 print("")
 
-print("The",scarfa.color,"is decorative knot on a plain purse.")
+
+print("")
 print("")
 
 print("The paper has been cut,                                                             the scarf is tied,                                                                  the pen has written words,                                                           and the smartphone records it all.")
