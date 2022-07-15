@@ -68,8 +68,8 @@ class Chair:
         self.texture = tx
 #Andrea's Section
 
-paper1 = Paper("White",1,70,"Smooth",20) 
-paper2 = Paper("Gold",2,200,"Embossed",30)
+a4 = Paper("White",1,70,"Smooth",20) 
+board = Paper("Gold",2,200,"Embossed",30)
 
 scarfa = Scarf("Gold and Green","2 lbs",6,72,24)
 scarfb = Scarf("Blue and Silver","3 lbs",9,48,24)
@@ -81,10 +81,10 @@ sphone1 = Smartphone("Bronze","2 lb","1 cm","rounded rectangle","Magic")
 sphone2 = Smartphone("Silver","2 lb","3 cm","palm-sized pebble","Katoptris")
 
 # Command Section
-print("Type of Paper:",paper2.texture)
-print("Before cut:",paper2.size)
-paper1.cut()
-print("After cut:",paper1.size)
+print("Type of Paper:",board.texture)
+print("Before cut:",board.size)
+a4.cut()
+print("After cut:",a4.size)
 
 print("")
 
