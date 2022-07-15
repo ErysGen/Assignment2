@@ -85,11 +85,14 @@ print("Type of Paper:",board.texture)
 print("Before cut:",board.size)
 a4.cut()
 print("After cut:",a4.size)
-
 print("")
 
-print("The pen is mightier than the sword - colored",pen1.color)
+#scarf
 
+print("The",pen1.color,"pen is mightier than the sword.")
+print("")
+
+print("The",scarfa.color,"is decorative knot on a plain purse.")
 print("")
 
 print("The paper has been cut,                                                             the scarf is tied,                                                                  the pen has written words,                                                           and the smartphone records it all.")
