@@ -68,27 +68,33 @@ class Chair:
         self.texture = tx
 #Andrea's Section
 
-a4 = Paper("White",1,70,"Smooth",20) 
-board = Paper("Gold",2,200,"Embossed",30)
+a4 = Paper("White",1,70,"smooth",20) 
+board = Paper("Gold",2,200,"embossed",30)
 
-scarfa = Scarf("gold and green","2 lbs",6,72,24)
-scarfb = Scarf("blue and silver","3 lbs",9,48,24)
+scarfa = Scarf("gold-green","2 lbs",6,72,24)
+scarfb = Scarf("silver-blue","3 lbs",9,48,24)
 
-p = Pen("purple",2,12,1,"Metal")
-r = Pen("red",2,14,1,"Plastic")
+p = Pen("purple",2,12,1,"metal")
+r = Pen("red",2,14,1,"plastic")
 
-sphone1 = Smartphone("Bronze","2 lb","1 cm","rounded rectangle","Magic")
-sphone2 = Smartphone("Silver","2 lb","3 cm","palm-sized pebble","Katoptris")
+sphone1 = Smartphone("bronze","2 lb","1 cm","rounded rectangle","Magic")
+sphone2 = Smartphone("silver","2 lb","3 cm","pebble-sized","Katoptris")
 
 # Command Section
-print("I have a",r.color,"pen. Mightier than the Percy Jackson's magic pen-sword.")
+print("I have a pretty",p.material,p.color,"pen. Someone said pens are mightier than swords.")
+print("") #spacer
+print("I carry it in a purse decorated with a",scarfb.color,"scarf along with")
+print("") #spacer
+print("a special",a4.texture,"papered notebook, encased in an",board.texture,"paper jacket.")
 print("")
 
-print("I carry it in a purse decorated with a",scarfa.color,"scarf.")
+print("Sometimes, I like to cut the paper in half. To either draw or make special remarks.")
 print("")
 
+print("When I like the result of the sketches I made with my",p.color,"pen,")
+print("") #spacer
 
-print("")
-print("")
+print("I take a photo or a video of my artwork with my",sphone2.color,sphone2.shape)
+print("") #spacer
 
-print("The paper has been cut,                                                             the scarf is tied,                                                                  the pen has written words,                                                           and the smartphone records it all.")
+print("smart flip-phone,",sphone2.name)
