@@ -74,8 +74,8 @@ paper2 = Paper("Gold",2,200,"Embossed",30)
 scarfa = Scarf("Gold and Green","2 lbs",6,72,24)
 scarfb = Scarf("Blue and Silver","3 lbs",9,48,24)
 
-pen1 = Pen("Purple",2,12,1,"Metal")
-pen2 = Pen("Red",2,14,1,"Plastic")
+pen1 = Pen("purple",2,12,1,"Metal")
+pen2 = Pen("red",2,14,1,"Plastic")
 
 sphone1 = Smartphone("Bronze","2 lb","1 cm","rounded rectangle","Magic")
 sphone2 = Smartphone("Silver","2 lb","3 cm","palm-sized pebble","Katoptris")
@@ -92,4 +92,4 @@ print("The pen is mightier than the sword - colored",pen1.color)
 
 print("")
 
-print("The paper has been cut,                                                             the scarf is tied,                                                                  the pen has written words,                                                           and the smartphone captures it all.")
+print("The paper has been cut,                                                             the scarf is tied,                                                                  the pen has written words,                                                           and the smartphone records it all.")
