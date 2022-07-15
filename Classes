@@ -36,7 +36,7 @@ class Smartphone: # print action
 
 #Andrea's Section
 class Sword:
-    def __init__(self,c,wg,tn,l,w)
+    def __init__(self,c,wg,tn,l,w):
         self.color = c
         self.weight = wg
         self.thickness = tn
@@ -44,7 +44,7 @@ class Sword:
         self.width = w
     
 class Mouse:
-    def __init__(self,c,wg,l,w,h)
+    def __init__(self,c,wg,l,w,h):
         self.color = c
         self.weight = wg
         self.length = l 
@@ -52,7 +52,7 @@ class Mouse:
         self.height = h
         
 class Gun:
-    def __init_(self,c,wg,tn,l,tx)
+    def __init_(self,c,wg,tn,l,tx):
         self.color = c
         self.weight = wg
         self.thickness = tn
@@ -60,7 +60,7 @@ class Gun:
         self.texture = tx
         
 class Chair:
-    def __init__(self,c,wg,w,tx,h)
+    def __init__(self,c,wg,w,tx,h):
         self.color = c
         self.weight = wg
         self.thickness = tn
