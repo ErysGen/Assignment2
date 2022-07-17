@@ -91,7 +91,6 @@ o = Pen("orange",2,10,1.5,"wood")
 bk = Pen("black",2,10,1,"cardboard")
 bl = Pen("blue",2,12,1.5,"rubber")
 
-
 #Smartphone
 sphone1 = Smartphone("bronze","2 lbs","1 cm","rounded rectangle","Magic")
 sphone2 = Smartphone("silver","2 lbs","3 cm","pebble-sized","Katoptris")
