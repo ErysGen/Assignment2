@@ -68,33 +68,30 @@ class Chair:
         self.texture = tx
 #Andrea's Section
 
+# Attributes Bank
+
+#Paper
 a4 = Paper("White",1,70,"smooth",20) 
 board = Paper("Gold",2,200,"embossed",30)
+cartolina = Paper("Black",2,80,"corrugated",40)
+crepe = Paper("Rose",1,60,"silky",50)
+parchment = Paper("Beige",2,150,"rough",20)
 
-scarfa = Scarf("gold-green","2 lbs",6,72,24)
+#Scarf
+scarfa = Scarf("gold-green","2 lbs",6,72,48)
 scarfb = Scarf("silver-blue","3 lbs",9,48,24)
+scarfc = Scarf("rose-gold","1 lb",4,35,72)
+scarfd = Scarf("gray","3 lbs",)
+scarfe = Scarf("red")
 
+#Pen
 p = Pen("purple",2,12,1,"metal")
 r = Pen("red",2,14,1,"plastic")
 
+#Smartphone
 sphone1 = Smartphone("bronze","2 lb","1 cm","rounded rectangle","Magic")
-sphone2 = Smartphone("silver","2 lb","3 cm","pebble-sized","Katoptris")
+sphone2 = Smartphone("silver","2 lb","3 cm","pebble-sized","Katoptris")        
+
 
 # Command Section
-print("I have a pretty",p.material,p.color,"pen. Someone said pens are mightier than swords.")
-print("") #spacer
-print("I carry it in a purse decorated with a",scarfb.color,"scarf along with")
-print("") #spacer
-print("a special",a4.texture,"papered notebook, encased in an",board.texture,"paper jacket.")
-print("")
 
-print("Sometimes, I like to cut the paper in half. To either draw or make special remarks.")
-print("")
-
-print("When I like the result of the sketches I made with my",p.color,"pen,")
-print("") #spacer
-
-print("I take a photo or a video of my artwork with my",sphone2.color,sphone2.shape)
-print("") #spacer
-
-print("smart flip-phone,",sphone2.name)
