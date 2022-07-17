@@ -78,20 +78,26 @@ crepe = Paper("Rose",1,60,"silky",50)
 parchment = Paper("Beige",2,150,"rough",20)
 
 #Scarf
-scarfa = Scarf("gold-green","2 lbs",6,72,48)
+scarfa = Scarf("gold-green","2 lbs",6,60,48)
 scarfb = Scarf("silver-blue","3 lbs",9,48,24)
-scarfc = Scarf("rose-gold","1 lb",4,35,72)
-scarfd = Scarf("gray","3 lbs",)
-scarfe = Scarf("red")
+scarfc = Scarf("rose-gold","1 lb",4,60,12)
+scarfd = Scarf("gray","3 lbs",3,48,24)
+scarfe = Scarf("red","1 lb",9,36,12)
 
 #Pen
 p = Pen("purple",2,12,1,"metal")
-r = Pen("red",2,14,1,"plastic")
+r = Pen("red",2,10,1,"plastic")
+o = Pen("orange",2,10,1.5,"wood")
+bk = Pen("black",2,10,1,"cardboard")
+bl = Pen("blue",2,12,1.5,"rubber")
+
 
 #Smartphone
 sphone1 = Smartphone("bronze","2 lb","1 cm","rounded rectangle","Magic")
-sphone2 = Smartphone("silver","2 lb","3 cm","pebble-sized","Katoptris")        
-
+sphone2 = Smartphone("silver","2 lb","3 cm","pebble-sized","Katoptris")
+sphone3 = Smartphone("","","","","")
+sphone4 = Smartphone("","","","","")
+sphone5 = Smartphone("","","","","")
 
 # Command Section
 
