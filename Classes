@@ -98,5 +98,12 @@ sphone3 = Smartphone("gray","3 lbs","2 cm","circular","Talon")
 sphone4 = Smartphone("sapphire","2 lbs","1 cm","squarish rectangle","Wisteria")
 sphone5 = Smartphone("topaz","3 lbs","2 cm","triangular","Maven")
 
+#Sword
+fire = Sword("",,,,)
+light = Sword("",,,,)
+earth = Sword("",,,,)
+water = Sword("",,,,)
+
+
 # Command Section
 
