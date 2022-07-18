@@ -116,10 +116,15 @@ marshall = Gun("silver",10,1.20,10,"bulky")
 b = Mouse("black",1,7,4,2)
 w = Mouse("white",1.5,8,3,1.5)
 gl = Mouse("gold",2,4,5,4)
-gr = Mouse("gray",,,,)
-p = Mouse("",,,,)
+gr = Mouse("gray",1,5,6,3)
+p = Mouse("purple",2.5,7,5,2)
 
 #Chair
+brn = Chair("brown",2,24,"soft",72)
+wt = Chair("white",4,36,"rubbery",36)
+pk = Chair("pink",2,15,"fluffy",60)
+s = Chair("silver",10,20,"smooth",28)
+bl = Chair("blue",5,24,"hard",36)
 
 # Command Section
 
