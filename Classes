@@ -127,7 +127,11 @@ s = Chair("silver",10,20,"smooth",28)
 bl = Chair("blue",5,24,"hard",36)
 
 # Command Section
+
+#Paper
+ #1
 print("Paper type:",crepe.texture)
+ #2
 print("Original paper size:",crepe.size)
 crepe.cut()
 print("Current paper size:",crepe.size)
