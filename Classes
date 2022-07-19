@@ -10,6 +10,7 @@ class Paper:
     def cut(self):
         self.size = self.size / 2
         
+
 class Scarf:     # figure out what action to do for with the scarf
     def __init__(self,c,wg,tn,l,w):  
         self.color = c
@@ -129,9 +130,12 @@ bl = Chair("blue",5,24,"hard",36)
 # Command Section
 
 #Paper
+print("PAPER")
  #1
 print("Paper type:",crepe.texture)
- #2
+ #2 Cut
 print("Original paper size:",crepe.size)
 crepe.cut()
 print("Current paper size:",crepe.size)
+ #3 Flip
+ print("")
