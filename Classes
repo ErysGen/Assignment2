@@ -60,7 +60,7 @@ class Gun:
         self.texture = tx
         
 class Chair:
-    def __init__(self,c,wg,tn,tx,h):
+    def __init__(self,c,wg,tn,l,tx):
         self.color = c
         self.weight = wg
         self.thickness = tn
