@@ -52,7 +52,7 @@ class Mouse:
         self.height = h
         
 class Gun:
-    def __init_(self,c,wg,tn,l,tx):
+    def __init__(self,c,wg,tn,l,tx):
         self.color = c
         self.weight = wg
         self.thickness = tn
