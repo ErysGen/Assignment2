@@ -130,13 +130,13 @@ bl = Chair("blue",5,24,"hard",36)
 
 #Paper
 print("PAPER")
- #1
 print("Paper type:",crepe.texture)
- #2 Cut
+ #1 Cut
 print("Original paper size:",crepe.size)
 crepe.cut()
 print("Current paper size:",crepe.size)
- #3 Increase Thickness
+ #2 Increase Thickness
 print("Original Thickness:",crepe.thickness)
 crepe.increase_thickness()
 print("Current thickness:",crepe.thickness)
+ #3 
