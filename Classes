@@ -29,7 +29,7 @@ class Scarf:     # figure out what action to do for with the scarf
         self.thickness = tn
         self.length = l
         self.width = w
-        drlf.material = m
+        self.material = m
         
     def fold(self):
         self.width = self.width / 2 
