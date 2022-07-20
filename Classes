@@ -19,7 +19,8 @@ class Paper:
     def cut(self):
         self.size = self.size / 2    
     
-    def 
+    def written_record(self,tx):
+        self.texture = tx
 
 class Scarf:     # figure out what action to do for with the scarf
     def __init__(self,c,wg,tn,l,w,m):  
@@ -174,6 +175,12 @@ print("")
 print("Original paper size:",crepe.size)
 crepe.cut()
 print("Current paper size:",crepe.size)
+print("")
+
+ #5 Written Record
+print("Type of Record: Sketch")
+print("Paper Color:")
+parchment.written_record()
 print("")
 
 #Scarf
