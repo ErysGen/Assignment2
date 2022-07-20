@@ -77,7 +77,7 @@ class Chair:
 # Attributes Bank
 #Paper
 a4 = Paper("White",1,70,"smooth",20) 
-board = Paper("Gold",2,200,"embossed",30)
+board = Paper("Sunset Orange",2,200,"embossed",30)
 cartolina = Paper("Black",2,80,"corrugated",40)
 crepe = Paper("Rose Gold",1,60,"silky",50)
 parchment = Paper("Beige",2,150,"rough",20)
