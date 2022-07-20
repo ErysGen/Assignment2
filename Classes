@@ -20,7 +20,7 @@ class Paper:
     def cut(self):
         self.size = self.size / 2    
     
-
+  
 class Scarf:     # figure out what action to do for with the scarf
     def __init__(self,c,wg,tn,l,w,m):  
         self.color = c
@@ -159,6 +159,7 @@ print("Number of times folded:",crepe.size)
 print("")
  
  #2 Increase Thickness
+print("Double Paper Thickness")
 print("Original Thickness:",crepe.thickness)
 crepe.increase_thickness()
 print("Current thickness:",crepe.thickness)
@@ -178,8 +179,8 @@ print("")
 
  #5 Written Record
 print("Type of Record: Sketch")
-print("Paper Color:")
-parchment.written_record()
+print("Paper Color:",parchment.color)
+print("New Paper Type:")
 print("")
 
 #Scarf
@@ -209,7 +210,3 @@ print("")
  #1 Call
 print("Calling:",sphone5.cname)
 print("")
-
-
-
-
