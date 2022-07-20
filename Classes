@@ -9,6 +9,9 @@ class Paper:
         
     def cut(self):
         self.size = self.size / 2
+
+    def increase_thickness(self):
+        self.thickness = self.thickness * 2
         
 
 class Scarf:     # figure out what action to do for with the scarf
