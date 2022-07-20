@@ -13,6 +13,8 @@ class Paper:
     def increase_thickness(self):
         self.thickness = self.thickness * 2
         
+    def color_change(self):
+        self.color = c
 
 class Scarf:     # figure out what action to do for with the scarf
     def __init__(self,c,wg,tn,l,w):  
@@ -77,7 +79,7 @@ class Chair:
 a4 = Paper("White",1,70,"smooth",20) 
 board = Paper("Gold",2,200,"embossed",30)
 cartolina = Paper("Black",2,80,"corrugated",40)
-crepe = Paper("Rose",1,60,"silky",50)
+crepe = Paper("Rose Gold",1,60,"silky",50)
 parchment = Paper("Beige",2,150,"rough",20)
 
 #Scarf
@@ -142,4 +144,7 @@ print("Current paper size:",crepe.size)
 print("Original Thickness:",crepe.thickness)
 crepe.increase_thickness()
 print("Current thickness:",crepe.thickness)
- #3 
+ #3 Color change
+ print("Original Color:",crepe.color)
+ crepe.color_change("Amber Gold")
+ print("New Color:",crepe.color)
