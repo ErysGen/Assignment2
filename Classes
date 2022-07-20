@@ -70,7 +70,6 @@ class Chair:
 #Andrea's Section
 
 # Attributes Bank
-
 #Paper
 a4 = Paper("White",1,70,"smooth",20) 
 board = Paper("Gold",2,200,"embossed",30)
