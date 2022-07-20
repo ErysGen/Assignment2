@@ -22,12 +22,13 @@ class Paper:
     def 
 
 class Scarf:     # figure out what action to do for with the scarf
-    def __init__(self,c,wg,tn,l,w):  
+    def __init__(self,c,wg,tn,l,w,m):  
         self.color = c
         self.weight = wg
         self.thickness = tn
         self.length = l
         self.width = w
+        drlf.material = m
         
     def fold(self):
         self.width = self.width / 2 
@@ -48,6 +49,10 @@ class Smartphone: # print action
         self.weight = wg
         self.thickness = tn
         self.shape = s
+        self.name = n
+
+class People: #smartphone contacts
+    def __init__(self,n)
         self.name = n
 
 #Andrea's Section
@@ -93,11 +98,11 @@ crepe = Paper("Golden Rose",1,60,"silky",50)
 parchment = Paper("Beige",2,150,"rough",20)
 
 #Scarf
-scarfa = Scarf("gold-green","2 lbs",6,60,48)
-scarfb = Scarf("silver-blue","3 lbs",9,48,24)
-scarfc = Scarf("rose-gold","1 lb",4,60,12)
-scarfd = Scarf("gray","3 lbs",3,48,24)
-scarfe = Scarf("red","1 lb",9,36,12)
+scarfa = Scarf("gold-green","2 lbs",6,60,48,"cotton")
+scarfb = Scarf("silver-blue","3 lbs",9,48,24,"wool)
+scarfc = Scarf("rose-gold","1 lb",4,60,12,"")
+scarfd = Scarf("gray","3 lbs",3,48,24,)
+scarfe = Scarf("red","1 lb",9,36,12,)
 
 #Pen
 p = Pen("purple",2,12,1,"metal")
@@ -112,6 +117,15 @@ sphone2 = Smartphone("silver","2 lbs","3 cm","pebble-sized","Katoptris")
 sphone3 = Smartphone("gray","3 lbs","2 cm","circular","Talon")
 sphone4 = Smartphone("sapphire","2 lbs","1 cm","squarish rectangle","Wisteria")
 sphone5 = Smartphone("topaz","3 lbs","2 cm","triangular","Maven")
+
+#People (smartphone contacts)
+p1 = People("Loulou")
+p2 = People("Perry")
+p3 = People("Luke")
+p4 = People("Teddy")
+p5 = People("Tammy")
+p6 = People("Regina")
+p7 = People("Maku")
 
 #Sword
 fire = Sword("red",6,1,30,7)
@@ -172,7 +186,8 @@ print("Current paper size:",crepe.size)
 print("")
 
 #Scarf
-print("Type of Scarf:",)
+print("SCARF")
+print("Type of Scarf:", )
 
 
 
