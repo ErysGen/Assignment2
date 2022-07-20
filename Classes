@@ -1,11 +1,12 @@
 # Class Section
 class Paper:
-    def __init__(self,c,w,tn,tx,s):
+    def __init__(self,c,w,tn,tx,s,n):
         self.color = c
         self.weight = w
         self.thickness = tn
         self.texture = tx
         self.size = s
+        self.name = n
         
     def fold(self): # rework argument to print no. of folds
         self.size = self.size / 2
@@ -19,8 +20,6 @@ class Paper:
     def cut(self):
         self.size = self.size / 2    
     
-    def written_record(self,tx):
-        self.texture = tx
 
 class Scarf:     # figure out what action to do for with the scarf
     def __init__(self,c,wg,tn,l,w,m):  
@@ -92,11 +91,11 @@ class Chair:
 
 # Attributes Bank
 #Paper
-a4 = Paper("White",1,70,"smooth",20) 
-board = Paper("Sunset Orange",2,200,"embossed",30)
-cartolina = Paper("Black",2,80,"corrugated",40)
-crepe = Paper("Golden Rose",1,60,"silky",50)
-parchment = Paper("Beige",2,150,"rough",20)
+a4 = Paper("White",1,70,"smooth",20,"Plain A4") 
+board = Paper("Sunset Orange",2,200,"embossed",30,"Board")
+cartolina = Paper("Black",2,80,"corrugated",40,"Cartolina")
+crepe = Paper("Golden Rose",1,60,"silky",50,"Crepe")
+parchment = Paper("Beige",2,150,"rough",20,"Parchment")
 
 #Scarf
 scarfa = Scarf("gold-green","2 lbs",6,60,48,"cotton")
