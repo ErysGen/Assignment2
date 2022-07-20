@@ -7,14 +7,19 @@ class Paper:
         self.texture = tx
         self.size = s
         
-    def cut(self):
+    def fold(self): # rework argument to print no. of folds
         self.size = self.size / 2
-
+    
     def increase_thickness(self):
         self.thickness = self.thickness * 2
-        
-    def color_change(self):
+    
+    def color_change(self,c):
         self.color = c
+    
+    def cut(self):
+        self.size = self.size / 2    
+    
+    def 
 
 class Scarf:     # figure out what action to do for with the scarf
     def __init__(self,c,wg,tn,l,w):  
@@ -23,6 +28,9 @@ class Scarf:     # figure out what action to do for with the scarf
         self.thickness = tn
         self.length = l
         self.width = w
+        
+    def fold(self):
+        self.width = self.width / 2 
 
 class Pen:  # make the pen write
     def __init__(self,c,wg,l,w,m):
@@ -31,6 +39,8 @@ class Pen:  # make the pen write
         self.length = l
         self.width = w
         self.material = m
+        
+        
               
 class Smartphone: # print action
     def __init__(self,c,wg,tn,s,n):
@@ -79,7 +89,7 @@ class Chair:
 a4 = Paper("White",1,70,"smooth",20) 
 board = Paper("Sunset Orange",2,200,"embossed",30)
 cartolina = Paper("Black",2,80,"corrugated",40)
-crepe = Paper("Rose Gold",1,60,"silky",50)
+crepe = Paper("Golden Rose",1,60,"silky",50)
 parchment = Paper("Beige",2,150,"rough",20)
 
 #Scarf
@@ -137,13 +147,12 @@ bl = Chair("blue",5,24,"hard",36)
 print("PAPER")
 print("Paper type:",crepe.texture)
 print("")
-
- #1 Cut
-print("Original paper size:",crepe.size)
-crepe.cut()
-print("Current paper size:",crepe.size)
+  #1 Fold
+print("Original size:",crepe.size)
+crepe.fold()
+print("Number of times folded:",crepe.size) 
 print("")
-
+ 
  #2 Increase Thickness
 print("Original Thickness:",crepe.thickness)
 crepe.increase_thickness()
@@ -155,3 +164,15 @@ print("Original Color:",crepe.color)
 crepe.color_change("Amber Gold")
 print("New Color:",crepe.color)
 print("")
+
+ #4 Cut
+print("Original paper size:",crepe.size)
+crepe.cut()
+print("Current paper size:",crepe.size)
+print("")
+
+#Scarf
+print("Type of Scarf:",)
+
+
+
