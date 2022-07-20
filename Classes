@@ -136,15 +136,22 @@ bl = Chair("blue",5,24,"hard",36)
 #Paper
 print("PAPER")
 print("Paper type:",crepe.texture)
+print("")
+
  #1 Cut
 print("Original paper size:",crepe.size)
 crepe.cut()
 print("Current paper size:",crepe.size)
+print("")
+
  #2 Increase Thickness
 print("Original Thickness:",crepe.thickness)
 crepe.increase_thickness()
 print("Current thickness:",crepe.thickness)
+print("")
+
  #3 Color change
- print("Original Color:",crepe.color)
- crepe.color_change("Amber Gold")
- print("New Color:",crepe.color)
+print("Original Color:",crepe.color)
+crepe.color_change("Amber Gold")
+print("New Color:",crepe.color)
+print("")
