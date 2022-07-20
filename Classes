@@ -100,10 +100,10 @@ parchment = Paper("Beige",2,150,"rough",20)
 
 #Scarf
 scarfa = Scarf("gold-green","2 lbs",6,60,48,"cotton")
-scarfb = Scarf("silver-blue","3 lbs",9,48,24,"wool)
-scarfc = Scarf("rose-gold","1 lb",4,60,12,"")
-scarfd = Scarf("gray","3 lbs",3,48,24,)
-scarfe = Scarf("red","1 lb",9,36,12,)
+scarfb = Scarf("silver-blue","3 lbs",9,48,24,"wool")
+scarfc = Scarf("rose-gold","1 lb",4,60,12,"silk")
+scarfd = Scarf("gray","3 lbs",3,48,24,"cashmere")
+scarfe = Scarf("red","1 lb",9,36,12,"velvet")
 
 #Pen
 p = Pen("purple",2,12,1,"metal")
