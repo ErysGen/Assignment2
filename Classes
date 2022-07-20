@@ -136,5 +136,7 @@ print("Paper type:",crepe.texture)
 print("Original paper size:",crepe.size)
 crepe.cut()
 print("Current paper size:",crepe.size)
- #3 Flip
- print("")
+ #3 Increase Thickness
+print("Original Thickness:",crepe.thickness)
+crepe.increase_thickness()
+print("Current thickness:",crepe.thickness)
