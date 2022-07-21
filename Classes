@@ -19,6 +19,9 @@ class Paper:
     
     def cut(self):
         self.size = self.size / 2    
+        
+    def change_name(self,n):
+        self.name = n
     
   
 class Scarf:     # figure out what action to do for with the scarf
@@ -95,7 +98,7 @@ a4 = Paper("White",1,70,"smooth",20,"Plain A4")
 board = Paper("Sunset Orange",2,200,"embossed",30,"Board")
 cartolina = Paper("Black",2,80,"corrugated",40,"Cartolina")
 crepe = Paper("Golden Rose",1,60,"silky",50,"Crepe")
-parchment = Paper("Beige",2,150,"rough",20,"Parchment")
+vellum = Paper("Beige",2,150,"rough",20,"Vellum")
 
 #Scarf
 scarfa = Scarf("gold-green","2 lbs",6,60,48,"cotton")
@@ -179,8 +182,9 @@ print("")
 
  #5 Written Record
 print("Type of Record: Sketch")
-print("Paper Color:",parchment.color)
-print("New Paper Type:")
+print("Paper Color:",vellum.color)
+vellum.change_name("Parchment")
+print("New Paper Type:",vellum.name)
 print("")
 
 #Scarf
