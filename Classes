@@ -191,18 +191,27 @@ vellum.change_name("Parchment")
 print("New Paper Type:",vellum.name)
 print("")
 
-#Scarf
+ #Scarf
 print("SCARF")
-print("Type of Scarf:", )
+ #1 Fold
+print("Scarf Material:",scarfa.material)
+print("Original Width:",scarfa.width)
+scarfa.fold()
+print("Current Width:",scarfa.width)
 print("")
 
- #1
- 
- #2
+ #2 Tie
+print("Scarf Material:",scarfc.material)
+print("Original Length:",scarfc.length)
+scarfc.tie()
+print("Current Length:",scarfc.length)
+print("")
  
  #3
  
+ 
  #4
+ 
  
  #5
  
