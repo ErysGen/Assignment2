@@ -8,8 +8,8 @@ class Paper:
         self.size = s
         self.name = n
         
-    def fold(self): # rework argument to print no. of folds
-        self.size = self.size / 2
+    def fold(self):
+        self.size = self.size / 20
     
     def increase_thickness(self):
         self.thickness = self.thickness * 2
@@ -18,7 +18,7 @@ class Paper:
         self.color = c
     
     def cut(self):
-        self.size = self.size / 2    
+        self.size = self.size / 10   
         
     def change_name(self,n):
         self.name = n
@@ -32,12 +32,16 @@ class Scarf:     # figure out what action to do for with the scarf
         self.length = l
         self.width = w
         self.material = m
+   
+   def fold(self):
+        self.width = self.width / 24 
         
-    def fold(self):
-        self.width = self.width / 2 
-
     def tie(self):
-        self.length = self.length / 4
+        self.length = self.length / 3
+    
+    def age_scarf(self):
+        self.thickness = self.thickness - 5
+
 
 class Pen:  # make the pen write
     def __init__(self,c,wg,l,w,m):
@@ -184,7 +188,7 @@ crepe.cut()
 print("Current paper size:",crepe.size)
 print("")
 
- #5 Written Record
+ #5 Change Paper
 print("Type of Record: Sketch")
 print("Paper Color:",vellum.color)
 vellum.change_name("Parchment")
@@ -207,8 +211,12 @@ scarfc.tie()
 print("Current Length:",scarfc.length)
 print("")
  
- #3 Flip
- 
+ #3 Wear
+print("Scarf Material:",scarfa.material)
+print("Original Thickness:",scarfa.thickness)
+scarfa.age_scarf()
+print("Current thickness:",scarfa.thickness)
+print("")
  
  #4
  
