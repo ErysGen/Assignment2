@@ -36,6 +36,9 @@ class Scarf:     # figure out what action to do for with the scarf
     def fold(self):
         self.width = self.width / 2 
 
+    def tie(self):
+        self.length = self.length / 3
+
 class Pen:  # make the pen write
     def __init__(self,c,wg,l,w,m):
         self.color = c
