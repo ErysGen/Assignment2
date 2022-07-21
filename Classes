@@ -22,9 +22,8 @@ class Paper:
         
     def change_name(self,n):
         self.name = n
-    
   
-class Scarf:     # figure out what action to do for with the scarf
+class Scarf: 
     def __init__(self,c,wg,tn,l,w,m):  
         self.color = c
         self.weight = wg
@@ -36,22 +35,30 @@ class Scarf:     # figure out what action to do for with the scarf
    def fold(self):
         self.width = self.width / 24 
         
-    def tie(self):
+   def tie(self):
         self.length = self.length / 3
     
-    def age_scarf(self):
+   def age_scarf(self):
         self.thickness = self.thickness - 5
+
+   
 
 
 class Pen:  # make the pen write
-    def __init__(self,c,wg,l,w,m):
+    def __init__(self,c,p,l,w,m):
         self.color = c
-        self.weight = wg
+        self.point = p
         self.length = l
         self.width = w
         self.material = m
         
-        
+    def pt_change(self):
+        self.point = self.point * 2
+    
+    def increase_ink(self):
+        self.point = self.point + 2
+   
+    def  
               
 class Smartphone: # print action
     def __init__(self,c,wg,tn,s,n,cn):
@@ -62,7 +69,7 @@ class Smartphone: # print action
         self.name = n
         self.cname = cn
 
-    def call(self):
+    def call(self): # Not Working
         self.cname = cn
 
 #Andrea's Section
@@ -116,10 +123,10 @@ scarfe = Scarf("red","1 lb",9,36,12,"velvet")
 
 #Pen
 p = Pen("purple",2,12,1,"metal")
-r = Pen("red",2,10,1,"plastic")
-o = Pen("orange",2,10,1.5,"wood")
-bk = Pen("black",2,10,1,"cardboard")
-bl = Pen("blue",2,12,1.5,"rubber")
+r = Pen("red",5,10,1,"plastic")
+o = Pen("orange",7,10,1.5,"wood")
+bk = Pen("black",1,10,1,"cardboard")
+bl = Pen("blue",8,12,1.5,"rubber")
 
 #Smartphone
 sphone1 = Smartphone("bronze","2 lbs","1 cm","rounded rectangle","Magic","Loulou")
