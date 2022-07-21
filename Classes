@@ -37,7 +37,7 @@ class Scarf:     # figure out what action to do for with the scarf
         self.width = self.width / 2 
 
     def tie(self):
-        self.length = self.length / 3
+        self.length = self.length / 4
 
 class Pen:  # make the pen write
     def __init__(self,c,wg,l,w,m):
@@ -207,7 +207,7 @@ scarfc.tie()
 print("Current Length:",scarfc.length)
 print("")
  
- #3
+ #3 Flip
  
  
  #4
